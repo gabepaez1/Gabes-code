@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>For Loop</title>
+    </head>    
+    <body>
+        <h1> Make the robot walk </h1>
+        
+        <script>
+        //instruct the robot to walk a specific amount of steps
+        
+        //declare varibales
+        let i;
+        var numSteps = 0; //User input
+        
+        //prompt the user to enter the number of steps 
+        numSteps = prompt("How many times do you want to walk?");
+        
+        //converting the numSteps to integer
+        numSteps = parseInt(numSteps); //Input is conterted to integer value
+                                      // numStep = 10;
+                                      
+                                      
+        //loop to make robot walk
+        //i is controll variable
+        
+        for (i = 0; i < numSteps; i++){
+            
+            document.writeln((i+1) + ". right left<br>");
+        }
+        document.writeln("<h2>The robot stopped!!</h2>")
+    
+    
+        </script>
+    </body>
+
+
+</html>

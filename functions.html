@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Demonstration of Functions</title>
+    </head>    
+    <body>
+        
+        <script>
+            //declare the global variables
+            
+            var averageResult1
+            
+            
+            //print the results 
+            //call function 
+            
+            averageResult1 = averageFunction(12,13,24)
+            
+            //print results
+            document.writeln(<h2>"here are the results " + averageResult<h2>)
+            
+            //step 1:define the function
+            
+            function averageFunction(num1, num2, num3){
+                //body of the function
+                
+                //declare a local variable
+                
+                let sum = num1 + num2 + num3;
+                
+                let avg = sum/3;
+                
+                //use return so the value can be used outside the function
+                return avg;
+                
+            }//end the function
+            
+        </script>
+    
+    </body>
+
+
+</html>
