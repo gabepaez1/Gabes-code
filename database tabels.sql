@@ -1,0 +1,10 @@
+INSERT INTO STUDENT (STU_CODE, PROF_CODE)
+VALUES (1000278),
+       (128569, 2),
+       (512272, 4),
+       (531235, 2),
+       (531268),
+       (553427, 1);
+       
+INSERT INTO PROFESSOR (PROF_CODE, DEPT_CODE)
+VALUES (1,2),(2,6),(3,6),(4,4);
